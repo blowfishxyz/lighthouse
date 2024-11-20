@@ -1,6 +1,6 @@
 [package]
 name = "lighthouse-sdk"
-version = "2.0.0"
+version = "2.0.1"
 edition = "2021"
 readme = "README.md"
 license-file = "../../LICENSE"
@@ -24,8 +24,8 @@ num-derive = "^0.3"
 num-traits = "^0.2"
 serde = { version = "^1.0", features = ["derive"], optional = true }
 serde_with = { version = "^3.0", optional = true }
-solana-program = "1.17.23"
-solana-sdk = { version = "1.17.23", optional = true }
+solana-program = "2.1.1"
+solana-sdk = { version = "2.1.1", optional = true }
 thiserror = "^1.0"
 base64 = "0.22.0"
 lighthouse-common = { path = "../../lighthouse-common", version = "2.0.0", features = ["serde"]}
